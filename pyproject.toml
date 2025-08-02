@@ -1,0 +1,62 @@
+[project]
+name = "oci-always-free"
+version = "0.1.0"
+authors = [
+    { name = "Dan Hollis", email = "danhollis93@proton.me" }
+]
+readme = "README.md"
+license = "GPL-3.0-only"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+
+[project.urls]
+"Homepage" = "https://github.com/LeetCyberSecurity/oci-always-free"
+"Bug Reports" = "https://github.com/LeetCyberSecurity/oci-always-free/issues"
+"Source" = "https://github.com/LeetCyberSecurity/oci-always-free"
+
+[tool.basedpyright]
+pythonVersion = "3.12"
+typeCheckingMode = "standard"
+
+[tool.ruff]
+force-exclude = true
+
+[tool.ruff.format]
+docstring-code-format = true
+line-ending = "lf"
+quote-style = "single"
+
+[tool.ruff.lint]
+select = [
+    "ALL"
+]
+ignore = [
+    "ANN",
+    "COM",
+    "C90",
+    "DJ",
+    "EXE",
+    "T10",
+    "TID",
+    "D101",
+    "D102",
+    "D103",
+    "D104",
+    "D107",
+    "D200",
+    "D203",
+    "D205",
+    "D212",
+    "D400",
+    "D401",
+    "D415",
+    "E402",
+    "E501",
+    "TRY003",
+    "TD002",
+    "TD003",
+    "FIX002",
+]
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "single"
