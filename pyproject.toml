@@ -10,9 +10,9 @@ license-files = ["LICENSE"]
 requires-python = ">=3.12"
 
 [project.urls]
-"Homepage" = "https://github.com/LeetCyberSecurity/oci-always-free"
-"Bug Reports" = "https://github.com/LeetCyberSecurity/oci-always-free/issues"
-"Source" = "https://github.com/LeetCyberSecurity/oci-always-free"
+"Homepage" = "https://github.com/dan-hollis/oci-always-free"
+"Bug Reports" = "https://github.com/dan-hollis/oci-always-free/issues"
+"Source" = "https://github.com/dan-hollis/oci-always-free"
 
 [tool.basedpyright]
 pythonVersion = "3.12"
